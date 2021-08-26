@@ -1,5 +1,5 @@
 import { Component, componentFactory, Store } from "pure-framework/core";
-import { div, span } from "pure-framework/htmlElements";
+import { div, span } from "pure-framework/html";
 import { AppModel } from "./model";
 class AppComponent extends Component<AppModel> {
   template() {
